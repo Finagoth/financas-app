@@ -13,7 +13,7 @@ export default function HomeScreen() {
     <SafeAreaView style={styles.safe}>
       <ScrollView style={styles.scroll} contentContainerStyle={styles.content}>
         <Text style={styles.greeting}>Olá,</Text>
-        <Text style={styles.name}>Lucas 👋</Text>
+        <Text style={styles.name}>👋</Text>
 
         <BalanceCard />
         <ActionButtons onPress={() => navigation.navigate("Add" as never)} />
