@@ -6,9 +6,14 @@ App mobile de controle financeiro pessoal desenvolvido com React Native e Expo.
 
 > Instale o **Expo Go** no seu celular e escaneie o QR Code abaixo:
 
-[<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=exp://u.expo.dev/ba590e7e-07ac-40a3-b9ac-a2835d9891cc" width="200"/>](https://expo.dev/accounts/finagoth/projects/financas-app)
+[<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=exp%2B%3A%2F%2Fexpo-development-client%2F%3Furl%3Dhttps%253A%252F%252Fu.expo.dev%252Fba590e7e-07ac-40a3-b9ac-a2835d9891cc%252Fgroup%252Fd5f9294e-ecb8-4c33-9b24-cd2112805b13" width="200"/>](https://expo.dev/accounts/finagoth/projects/financas-app)
 
 ---
+
+## 📸 Screenshots
+
+![Página inicial](assets/Home.jpg)
+![Página de detalhes](assets/addItem.jpg)
 
 ## 🚀 Funcionalidades
 
