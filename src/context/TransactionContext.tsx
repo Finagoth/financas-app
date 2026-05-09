@@ -17,6 +17,7 @@ export type Transaction = {
 };
 
 type TransactionContextData = {
+  editTransaction: (id: string, data: Omit<Transaction, "id" | "date">) => void;
   transactions: Transaction[];
   addTransaction: (tx: Omit<Transaction, "id" | "date">) => void;
   removeTransaction: (id: string) => void;
@@ -123,6 +124,12 @@ export function TransactionProvider({ children }: { children: ReactNode }) {
     setTransactions((prev) => prev.filter((tx) => tx.id !== id));
   }
 
+  function editTransaction(id: string, data: Omit<Transaction, "id" | "date">) {
+    setTransactions((prev) =>
+      prev.map((tx) => (tx.id === id ? { ...tx, ...data } : tx)),
+    );
+  }
+
   // ── Cálculos automáticos ───────────────────────────────────────────────────
   const totalIncome = transactions
     .filter((tx) => tx.type === "income")
@@ -137,6 +144,7 @@ export function TransactionProvider({ children }: { children: ReactNode }) {
   return (
     <TransactionContext.Provider
       value={{
+        editTransaction,
         transactions,
         addTransaction,
         removeTransaction,
