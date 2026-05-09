@@ -27,8 +27,8 @@ Depois escaneie o QR Code usando o Expo Go.
 
 ## 📸 Screenshots
 
-![Página inicial]Home (assets/Home.jpg)
-![Página de detalhes]Adição (assets/addItem.jpg)
+![Página inicial](assets/Home.jpg)
+![Página de detalhes](assets/addItem.jpg)
 
 ## 🚀 Funcionalidades
 
