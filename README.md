@@ -2,18 +2,33 @@
 
 App mobile de controle financeiro pessoal desenvolvido com React Native e Expo.
 
-## 📱 Testar o app agora
+## 📱 Como executar o app
 
-> Instale o **Expo Go** no seu celular e escaneie o QR Code abaixo:
+Clone o projeto:
 
-[<img src="https://expo.dev/preview/update?message=first+release&updateRuntimeVersion=1.0.0&createdAt=2026-05-09T20%3A35%3A32.908Z&slug=exp&projectId=ba590e7e-07ac-40a3-b9ac-a2835d9891cc&group=d5f9294e-ecb8-4c33-9b24-cd2112805b13" width="200"/>](https://expo.dev/accounts/finagoth/projects/financas-app)
+```bash
+git clone https://github.com/Finagoth/financas-app.git
+```
 
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute:
+
+```bash
+npx expo start
+```
+
+Depois escaneie o QR Code usando o Expo Go.
 ---
 
 ## 📸 Screenshots
 
-![Página inicial](assets/Home.jpg)
-![Página de detalhes](assets/addItem.jpg)
+![Página inicial]Home (assets/Home.jpg)
+![Página de detalhes]Adição (assets/addItem.jpg)
 
 ## 🚀 Funcionalidades
 
